@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<]head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width" initial="1.0">
+   <title>FINAL BLOOMALONG PROJECT</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+                           <!-------------------header------------------> 
+    <header class="header">
+       <a href="#"><img src="ulama.png" alt=""></a> 
+     <div class="navMenu" id="navMenu">
+        <i class='bx bx-window-close' onclick="closeMenu()"></i>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="services.html">Services</a></li>
+            <li> <a href="portfolio.html">Portfolio</a></li>
+            <li> <a href="contact.html">Contact</a></li> 
+        </ul>
+       </div>
+       <i class='bx bx-menu' onclick="openMenu()"></i>
+    </header>
+
+    <!----------------sub-header session------------------------------------>
+    <section class="sub-header" id="sub-header">
+        <h1>About <span>us</span></h1>
+    </section>
+   
+    <!------------------------about session------------------>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="school.jpeg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About <span>us</span></h2>
+            <h4>Ulu-l- Albaab Model Academy <span>(ULAMA)</span></h4>
+            <p>We believe Education is a sacred trust, one that shapes a child's value, intellect, and future contributions to society.Our focus goes beyond academic success; we aim to nurture students who embody strong moral values, empathy, leadership and unwavering integrity<br><br>We empower students with the skills and confidence to become changemakers and role models in their communities.we also cultivate a lifelong love for Qur'an learning and personal growth.<br><br>Our experienced educators are dedicated to creating a warm and inclusive environment where every students feels valued, inspired and motivted to reach their full potentials.parents are essential partners in this journey,and we foster a collaborative relationship that ensures a well rounded educational experience for each child.</p>
+            <a href="#" class="btn">Let's talk</a>
+        </div>
+    </section>
+    <section class="others" id="others">
+        <div class="sub-text-title">
+            <h2>Why <span>us?</span></h2>
+        </div>
+        <div class="others-img">
+            <img src="ulama.png" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="others-text">
+            <h3>At <span>(ULAMA)</span></h3>
+            <p>
+                - Our experienced teachers and staff are dedicated to providing a rigorous and engaging curriculum that challenges students to reach their full potential.<br><br> 
+                - We leverage the latest technology and teaching methods to create an immersive and interactive learning environment that fosters creativity, critical thinking, and problem-solving skills.<br><br>
+                - Our dedicated support staff provide individualized attention and guidance to ensure that every students receives the help they need to succeed.<br><br>
+            </p>
+        </div>
+        <div>
+            <a href="#" class="btn">Register Now</a>
+        </div>
+    </section>
+  
+    <!------------------footer session-------------------------------->
+    <footer class="footer">
+        <div class="attribution">
+            <p>Design with<i class="bx bx-heart"></i>By MARA</p>
+        </div>
+        <div class="move-up">
+            <a href="#sub-header"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <!-----------------JS for togglemenu---------------------------------------->
+    <script>
+        var navMenu = document.getElementById("navMenu")
+
+        function openMenu(){
+            navMenu.style.right = "0";
+        }
+
+        function closeMenu(){
+            navMenu.style.right = "-200px";
+        } 
+    </script>
+</body>
+</html>
